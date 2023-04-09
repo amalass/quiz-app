@@ -1,0 +1,166 @@
+/* Start global rules */
+:root {
+  --main-color: #006df8;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Tahoma, Arial;
+}
+
+.container {
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 6px;
+  background-color: #eee;
+}
+
+@media (min-width: 767px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End global rules */
+/* Start header */
+.container .header {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+/* End header */
+/* Start quiz body */
+.container .quiz-body {
+  margin-top: 15px;
+  background-color: white;
+  padding: 20px;
+}
+
+.container .quiz-body h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .container .quiz-body h3 {
+    font-size: 16px;
+  }
+  .container .quiz-body {
+    padding: 15px;
+  }
+}
+
+.container .quiz-body form ul {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.container .quiz-body form ul li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+@media (max-width: 767px) {
+  .container .quiz-body form ul li {
+    font-size: 14px;
+  }
+}
+
+.container ul li:not(:last-of-type) {
+  border-bottom: 1px solid #ccc;
+}
+.container ul input {
+  margin-right: 10px;
+}
+
+.container .quiz-body form ul input,
+.container ul label {
+  cursor: pointer;
+}
+
+.container .quiz-body form ul li:not(.result) input:checked + label {
+  color: var(--main-color);
+}
+
+.container .quiz-body form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  margin-top: 10px;
+  background-color: var(--main-color);
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.container .quiz-body form input[type="submit"]:hover {
+  background-color: #0657bf;
+}
+/* End quiz body */
+/* Start footer */
+.container .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.container .footer ul {
+  display: flex;
+  gap: 5px;
+}
+
+.container .footer ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ccc;
+}
+
+.container .footer ul li.answered {
+  background-color: var(--main-color);
+}
+/* End footer */
+/* Start result */
+.container .trueCount {
+  padding: 15px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.container .trueCount span.perfect {
+  color: green;
+}
+
+.container .trueCount span.bad {
+  color: red;
+}
+
+/* End result */
