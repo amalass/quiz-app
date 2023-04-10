@@ -1,0 +1,92 @@
+[
+  {
+    "categorie": "HTML",
+    "time": 15
+  },
+  {
+    "question": "What is the element that doesn't exist in html semantics",
+    "answer": {
+      "choices": ["article", "section", "blockquote", "aside"],
+      "rightAnswer": "blockquote"
+    }
+  },
+  {
+    "question": "Does <img> Element Has Attribute href",
+    "answer": {
+      "choices": [
+        "Yes",
+        "No It's For Anchor Tag <a>",
+        "All Elements Have This Attribute",
+        "Answer 1 And 3 are Right"
+      ],
+      "rightAnswer": "No Its For Anchor Tag <a>"
+    }
+  },
+  {
+    "question": "How Can We Make Element Text Bold",
+    "answer": {
+      "choices": [
+        "Putting It Inside <b> Tag",
+        "Putting It Inside <strong> Tag",
+        "Customizing It With Font-Weight Property In CSS",
+        "All Answers are Right"
+      ],
+      "rightAnswer": "All Answers are Right"
+    }
+  },
+  {
+    "question": "What Is The Right Hierarchy For Creating Part Of Page",
+    "answer": {
+      "choices": [
+        "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+        "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+        "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+        "All Solutions are Wrong"
+      ],
+      "rightAnswer": "All Solutions are Wrong"
+    }
+  },
+  {
+    "question": "How Can We Include External Page Inside Our HTML Page",
+    "answer": {
+      "choices": [
+        "By Using Include in HTML",
+        "By Using Load In HTML",
+        "By Using iFrame Tag",
+        "All Solutions are Wrong"
+      ],
+      "rightAnswer": "By Using iFrame Tag"
+    }
+  },
+  {
+    "question": "What Is The Tag That Doesn't Exist in HTML",
+    "answer": {
+      "choices": ["<object>", "<basefont>", "<abbr>", "All Tags Exist in HTML"],
+      "rightAnswer": "All Tags Exist in HTML"
+    }
+  },
+  {
+    "question": "How Can We Specify the Document Type Of HTML5 Page",
+    "answer": {
+      "choices": [
+        "<DOCTYPE html>",
+        "<DOCTYPE html5>",
+        "<!DOCTYPE html5>",
+        "<!DOCTYPE html>"
+      ],
+      "rightAnswer": "<!DOCTYPE html>"
+    }
+  },
+  {
+    "question": "In HTML, which way can We Use To Add Attributes?",
+    "answer": {
+      "choices": [
+        "<div class='class-name'>",
+        "<div class=class-name>",
+        "<div class=\"class-name\">",
+        "All are Right"
+      ],
+      "rightAnswer": "All are Right"
+    }
+  }
+]
