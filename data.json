@@ -11,62 +11,62 @@
     }
   },
   {
-    "question": "Does <img> Element Has Attribute href",
+    "question": "Does <img> Element Has the href Attribute",
     "answer": {
       "choices": [
         "Yes",
-        "No It's For Anchor Tag <a>",
-        "All Elements Have This Attribute",
-        "Answer 1 And 3 are Right"
+        "No it's for anchor tag <a>",
+        "All elements have this attribute",
+        "Answer 1 And 3 are right"
       ],
-      "rightAnswer": "No Its For Anchor Tag <a>"
+      "rightAnswer": "No it's for anchor tag <a>"
     }
   },
   {
-    "question": "How Can We Make Element Text Bold",
+    "question": "How can we make an element text bold",
     "answer": {
       "choices": [
-        "Putting It Inside <b> Tag",
-        "Putting It Inside <strong> Tag",
+        "Putting it inside <b> Tag",
+        "Putting it inside <strong> Tag",
         "Customizing It With Font-Weight Property In CSS",
-        "All Answers are Right"
+        "All answers are right"
       ],
-      "rightAnswer": "All Answers are Right"
+      "rightAnswer": "All answers are right"
     }
   },
   {
-    "question": "What Is The Right Hierarchy For Creating Part Of Page",
+    "question": "What is the right hierarchy for creating part of page",
     "answer": {
       "choices": [
         "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
         "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
         "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
-        "All Solutions are Wrong"
+        "All solutions are wrong"
       ],
-      "rightAnswer": "All Solutions are Wrong"
+      "rightAnswer": "All solutions are wrong"
     }
   },
   {
     "question": "How Can We Include External Page Inside Our HTML Page",
     "answer": {
       "choices": [
-        "By Using Include in HTML",
-        "By Using Load In HTML",
-        "By Using iFrame Tag",
-        "All Solutions are Wrong"
+        "By using include in HTML",
+        "By using load in HTML",
+        "By using iFrame tag",
+        "All solutions are wrong"
       ],
-      "rightAnswer": "By Using iFrame Tag"
+      "rightAnswer": "By using iFrame tag"
     }
   },
   {
-    "question": "What Is The Tag That Doesn't Exist in HTML",
+    "question": "What is the tag that doesn't exist in HTML",
     "answer": {
-      "choices": ["<object>", "<basefont>", "<abbr>", "All Tags Exist in HTML"],
-      "rightAnswer": "All Tags Exist in HTML"
+      "choices": ["<object>", "<basefont>", "<abbr>", "All tags exist in HTML"],
+      "rightAnswer": "All tags exist in HTML"
     }
   },
   {
-    "question": "How Can We Specify the Document Type Of HTML5 Page",
+    "question": "How can we specify the document type of HTML5 Page",
     "answer": {
       "choices": [
         "<DOCTYPE html>",
@@ -78,15 +78,15 @@
     }
   },
   {
-    "question": "In HTML, which way can We Use To Add Attributes?",
+    "question": "In HTML, which way can we use to add attributes",
     "answer": {
       "choices": [
         "<div class='class-name'>",
         "<div class=class-name>",
         "<div class=\"class-name\">",
-        "All are Right"
+        "All are right"
       ],
-      "rightAnswer": "All are Right"
+      "rightAnswer": "All are right"
     }
   }
 ]
