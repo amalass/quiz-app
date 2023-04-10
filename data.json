@@ -47,7 +47,7 @@
     }
   },
   {
-    "question": "How Can We Include External Page Inside Our HTML Page",
+    "question": "How can we include an external page inside our HTML page",
     "answer": {
       "choices": [
         "By using include in HTML",
