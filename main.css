@@ -92,12 +92,39 @@ body {
   border-bottom: 1px solid #ccc;
 }
 .container ul input {
+  position: relative;
   margin-right: 10px;
+  height: 14px;
+  width: 14px;
 }
 
 .container .quiz-body form ul input,
 .container ul label {
   cursor: pointer;
+}
+
+.container .quiz-body form ul input::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  border: 1px solid #777;
+  background-color: #eee;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.container .quiz-body form ul input:checked::after {
+  content: "";
+  height: 8px;
+  width: 8px;
+  display: block;
+  background: var(--main-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 57.5%;
+  top: 57.5%;
+  transform: translate(-50%, -50%);
 }
 
 .container .quiz-body form ul li:not(.result) input:checked + label {
