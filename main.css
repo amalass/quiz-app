@@ -102,9 +102,6 @@ body {
 .container ul label {
   cursor: pointer;
 }
-.container ul label {
-  min-width: 250px;
-}
 
 .container .quiz-body form ul input::before {
   content: "";
