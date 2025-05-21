@@ -1,1 +1,1 @@
-Demo: https://amsmaug.github.io/quiz-app/
+Demo: https://amalass.github.io/quiz-app/
